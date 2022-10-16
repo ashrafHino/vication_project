@@ -1,0 +1,40 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+body{
+    display: grid;
+    min-height: 100vh;
+}
+
+#form{
+    max-width: 330px;
+    background-color: #15172b;
+    border-radius: 20px;
+    box-sizing: border-box;
+    height: 400px;
+    padding: 50px;
+    width: 320px;
+    margin-top: 100px;
+    box-shadow: #f0f0f1;
+}
+#main-container{
+    place-items: center center;
+}
+#margen-botom-button{
+    margin-top: 70px;
+}
+h1#margen-botom-input{
+    margin-bottom: 30px;
+}
+
+#input {
+    background-color: #303245;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    font-size: 18px;
+    height: 100%;
+    outline: 0;
+    padding: 4px 20px 0;
+    width: 100%;
+  }

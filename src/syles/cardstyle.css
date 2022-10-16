@@ -1,0 +1,19 @@
+#cardd{
+    width: 18rem;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #2b2f52;
+    color: rgb(119, 221, 252);
+    height: 300px;
+    padding: 50px;
+    width: 320px;
+}
+#card-flex{
+    overflow: hidden;
+    margin-top: 70px;
+    display: flex;
+    flex-wrap:  wrap ;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: tracsform 200ms ease-in;
+}
